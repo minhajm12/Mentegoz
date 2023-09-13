@@ -62,6 +62,28 @@
             </div>
           </div>
         </div>
+
+        <div class="head__sec__bottom">
+          <div class="row">
+            <div class="col-md-3 col-6 counter-div">
+              <h3><span class="counter-2">500</span>+</h3>
+              <p>Happy Clients</p>
+            </div>
+            <div class="col-md-3 col-6 counter-div">
+              <h3><span class="counter-2">10</span>+</h3>
+              <p>Countries</p>
+            </div>
+            <div class="col-md-3 col-6 counter-div">
+              <h3><span class="counter-2">500</span>+</h3>
+              <p>Projects</p>
+            </div>
+            <div class="col-md-3 col-6 counter-div">
+              <h3><span class="counter-2">500</span>+</h3>
+              <p>Completed Projects</p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
 
@@ -283,7 +305,7 @@
           </div>
 
           <div class="col-lg-6 service-right">
-          <div class="img-div">
+            <div class="img-div">
               <img src="assets/img/service-section/ui-serv.png" alt="">
             </div>
             <!-- <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_uzvwjpkq.json" background="transparent" speed="1" loop autoplay></lottie-player> -->
@@ -328,6 +350,10 @@
   <!-- Font Aswesome -->
   <script src="https://kit.fontawesome.com/275b00d5ce.js" crossorigin="anonymous"></script>
 
+  <!-- Counter -->
+  <script src="assets/js/jquery.waypoints.min.js"></script>
+  <script src="assets/js/jquery.countup.js"></script>
+
   <!-- Lottie Files -->
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
@@ -358,39 +384,14 @@
 
 
 
-  <!-- <script>
-    const sliderContainer = document.querySelector('.slider-container');
-    const slideLeft = document.querySelector('.left-slide');
-    const slideRight = document.querySelector('.right-slide');
-    const downButton = document.querySelector('.down-button');
-    const upButton = document.querySelector('.up-button');
-    const slideLength = slideRight.querySelectorAll('div').length;
+  <!-- counter 2 -->
+  <script>
+    $('.counter-2').countUp({
+      delay: 5,
+      time: 1000,
+    });
+  </script>
 
-
-    let activeSlideIndex = 0;
-    slideLeft.style.top = `-${(slideLength - 1)*550}px`
-
-    upButton.addEventListener('click', () => changeSlide('up'))
-    downButton.addEventListener('click', () => changeSlide('down'))
-
-    function changeSlide(direction) {
-      const sliderHeight = sliderContainer.clientHeight;
-      if (direction === 'up') {
-        activeSlideIndex++;
-        if (activeSlideIndex > slideLength - 1) {
-          activeSlideIndex = 0;
-        }
-      } else if (direction === 'down') {
-        activeSlideIndex--;
-        if (activeSlideIndex < 0) {
-          activeSlideIndex = slideLength - 1;
-        }
-      }
-
-      slideRight.style.transform = `translateY(-${activeSlideIndex * sliderHeight}px)`
-      slideLeft.style.transform = `translateY(${activeSlideIndex * sliderHeight}px)`
-    }
-  </script> -->
 
 </body>
 

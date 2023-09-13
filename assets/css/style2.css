@@ -5,7 +5,8 @@
     margin:0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Lexend', sans-serif;
 }
 
 
@@ -76,7 +77,7 @@
 }
 
 .bg-lite-pg-head{
-    font-family: 'poppins';
+    font-family: 'Lexend', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 64px;
@@ -86,7 +87,6 @@
 }
 
 .bg-pg-head{
-    font-family: 'poppins';
     font-weight: 800;
     font-size: 40px;
     line-height: 42px;
@@ -257,8 +257,8 @@
 }
 
 .about-pg-quality-section .quality-point .sm-head{
-    font-family: 'poppins';
     font-style: normal;
+    font-family: 'Lexend', sans-serif;
     font-weight: 500;
     font-size: 18px;
     line-height: 19px;
@@ -267,8 +267,8 @@
 }
 
 .about-pg-quality-section .quality-point .bg-head{
-    font-family: 'poppins';
     font-style: normal;
+    font-family: 'Lexend', sans-serif;
     font-weight: 300;
     font-size: 48px;
     line-height: 59px;
@@ -2071,7 +2071,6 @@
 }
 
 .software-dev-top-sec .sm-head{
-    font-family: 'Syne', sans-serif;
     font-size: 21px;
     margin-bottom: 12px;
     color: #262398;
@@ -2080,7 +2079,6 @@
 
 .software-dev-top-sec .lg-head{
     font-size: 80px;
-    font-family: 'DM Sans', sans-serif;
     line-height: 76px;
     color: black;
 }
@@ -2090,7 +2088,6 @@
     color: gray;
     margin-top: 10px;
     width: 99%;
-    font-family: 'Syne', sans-serif;
 }
 
 .software-dev-top-sec button{

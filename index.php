@@ -24,8 +24,8 @@
   <!-- Flat icon -->
   <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
 
-
-  <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/> -->
+  <!-- AOS CDN -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   <!-- main style -->
   <link href="assets/css/style1.css" rel="stylesheet" type="text/css">
@@ -1537,11 +1537,11 @@
   <script src="assets/js/gsap-latest-beta.min.js"></script>
   <script src="assets/js/ScrollTrigger.min.js"></script>
 
+  <!-- AOS SCRIPT -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
   <!-- Srvice Scroll -->
   <script src="assets/js/service-scroll.js"></script>
-
-  <!-- Testimonials Swiper -->
-  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script> -->
 
   <!-- scroll smooth -->
   <script src="assets/js/SmoothScrollMouseWheel.js"></script>
@@ -1557,7 +1557,12 @@
 
   <!-- Modal -->
   <script src="assets/js/modal.js"></script>
+  
 
+
+<script>
+  AOS.init();  //AOS
+</script>
 
 
 

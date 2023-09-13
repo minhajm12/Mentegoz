@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root
 {
@@ -12,6 +14,7 @@
 body
 {
     /* overflow-x: hidden; */
+    font-family: 'Lexend', sans-serif;
 }
 
 #main-service
@@ -153,6 +156,62 @@ body
 
 
 
+/* SERVICE PAGE */
+.service__head .head__sec__bottom
+{
+  margin-top:10vh;
+  padding: 0 100px;
+}
+.service__head .head__sec__bottom .counter-div
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.service__head .head__sec__bottom h3
+{
+  font-weight: 800;
+  font-size: 40px;
+  font-family: 'Lexend', sans-serif;
+
+}
+.service__head .head__sec__bottom p
+{
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 999px)
+{
+  .service__head .head__sec__bottom
+  {
+    margin-top: 7vh;
+    padding: 0;
+  }
+  .service__head .head__sec__bottom .counter-div
+  {
+    padding:0 5px;
+  }
+  .service__head .head__sec__bottom h3
+  {
+    font-size: 34px;
+    margin:0;
+  }
+}
+
+@media only screen and (max-width: 768px)
+{
+  .service__head .head__sec__bottom h3
+  {
+    font-size: 30px;
+  }
+}
+
+
+
+
+
+
 
 
 
@@ -241,7 +300,6 @@ body
     height: 72px;
     border-bottom-right-radius: 3vw;
     color: white;
-    font-family: 'Syne', sans-serif;
     font-size: 35px;
     font-weight: 600;
     display: flex;
@@ -503,7 +561,6 @@ z-index: 5;
 .single__service .head__txt{
   font-size: 35px;
   margin-bottom: 15px;
-  font-family: 'Syne', sans-serif;    
 }
 .single__service .head__para{
   font-size: 16px;
@@ -542,7 +599,6 @@ z-index: 5;
 }
 .single__service .design_box .box h5{
   margin-top: 20px;
-  font-family: 'Syne', sans-serif;    
   font-size: 22px;
   color: black;
 }
@@ -571,16 +627,13 @@ z-index: 5;
 .responsive__section .span{
   font-size: 17px;
   margin-bottom: 2px;
-  font-family: 'Syne', sans-serif;    
 }
 .responsive__section .head{
   font-size: 30px;
-  font-family: 'Syne', sans-serif;    
 }
 .responsive__section .para{
   color: gray;
   margin-top: 13px;
-  font-family: 'Syne', sans-serif;
 }
 .responsive__section .computer_img{
   position: relative;
@@ -996,7 +1049,6 @@ z-index: 5;
   margin: auto;
   text-align: center;
   line-height: 70px;
-  font-family: 'DM Sans', sans-serif;
 }
 
 @media screen and (max-width: 992px) {
@@ -1028,7 +1080,6 @@ z-index: 5;
 
 
 .bann__er p.description{
-  font-family: 'DM Sans', sans-serif;
   font-size: 20px;
   text-align: center;
   margin-top: 40px;
@@ -1079,7 +1130,6 @@ z-index: 5;
   opacity: 0.7;
 }
 .txt_section h3.heading{
-  font-family: 'Syne', sans-serif;
   font-size: 35px;
 }
 .txt_section img.star{
@@ -1110,7 +1160,6 @@ z-index: 5;
 }
 .txt_section .box_section .box h5{
   font-size: 27px;
-  font-family: 'Syne', sans-serif;
   margin-bottom: 15px;
 }
 .txt_section .box_section .box p{
@@ -1151,12 +1200,10 @@ z-index: 5;
 }
 .content__section h3{
   margin-top: 25px;
-  font-family: "DM Sans", Sans-serif;
   font-size: 45px;
   width: 85%;
 }
 .content__section p{
-  font-family: "DM Sans", Sans-serif;
   font-size: 19px;
   color: black;
   margin-top: 35px;
@@ -1169,7 +1216,6 @@ z-index: 5;
   position: relative;
   border-bottom: 2px solid black;
   padding: 10px 0px;
-  font-family: "DM Sans", Sans-serif;
 }
 .content__section a::after{
   content: "\f061";
@@ -1191,12 +1237,10 @@ z-index: 5;
 .details__section h3.heading{
   font-size: 45px;
   text-align: center;
-  font-family: "DM Sans", Sans-serif;
   width: 45%;
   margin: auto;
 }
 .details__section p.head__para{
-  font-family: 'Syne', sans-serif;
   text-align: center;
   font-size: 19px;
   width: 39%;
@@ -1211,14 +1255,12 @@ z-index: 5;
   min-height: 250px;
 }
 .details__section .box h4{
-  font-family: 'DM Sans', sans-serif;
   font-size: 27px;
   margin-bottom: 17px;
 }
 .details__section .box p{
   font-size: 17px;
   color: #515151;
-  font-family: 'Syne', sans-serif;
 }
 .details__section .box img{
   margin-top: 50px;
@@ -1231,7 +1273,6 @@ z-index: 5;
   position: relative;
   border-bottom: 1px solid rgb(60, 60, 60);
   padding: 10px 0px;
-  font-family: "DM Sans", Sans-serif;
 }
 .details__section .box a::after{
   content: "\f061";
@@ -1410,7 +1451,6 @@ z-index: 5;
   text-transform: uppercase;
   text-align: center;
   display: block;
-  font-family: 'DM Sans', sans-serif;
   font-weight: 500;
   font-size: 20px;
 }
@@ -1625,7 +1665,6 @@ z-index: 5;
   text-transform: uppercase;
   text-align: center;
   display: block;
-  font-family: 'DM Sans', sans-serif;
   font-weight: 500;
   font-size: 20px;
 }
@@ -1634,7 +1673,6 @@ z-index: 5;
   width: 35%;
   margin: auto;
   font-size: 50px;
-  font-family: 'syne', sans-serif;
   line-height: 50px;
   margin-top: 3px;
 }
@@ -1675,13 +1713,11 @@ z-index: 5;
   font-size: 24px;
   text-align: center;
   margin-top: 16px;
-  font-family: 'Syne';
 }
 .blog__card__section .box a{
   text-align: center;
   color: black;
   text-decoration: none;
-  font-family: 'DM Sans';
   font-size: 18px;
   margin-top: 19px;
   display: flex;
@@ -1746,7 +1782,6 @@ z-index: 5;
   text-transform: uppercase;
   text-align: center;
   display: block;
-  font-family: 'DM Sans', sans-serif;
   font-weight: 500;
   font-size: 20px;
 }
@@ -1755,7 +1790,6 @@ z-index: 5;
   width: 35%;
   margin: 0px auto 30px ;
   font-size: 50px;
-  font-family: 'syne', sans-serif;
   line-height: 50px;
   margin-top: 3px;
 }
@@ -1784,7 +1818,6 @@ z-index: 5;
   text-align: center;
   color: black;
   text-decoration: none;
-  font-family: 'DM Sans';
   font-size: 18px;
   margin: 25px auto;
   display: flex;
@@ -1874,7 +1907,6 @@ z-index: 5;
   .technologies__section h3.heading{
     width: 100%;
     font-size: 30px;
-    font-family: 'syne', sans-serif;
     line-height: 50px;
   }
 }
@@ -1954,14 +1986,12 @@ z-index: 5;
 .branding___hero .right__section .heading__txt{
   font-size: 65px;
   line-height: 65px;
-  font-family: 'Syne',sans-serif;
 }
 .branding___hero .right__section .heading__para{
   width: 80%;
   margin-top: 16px;
   font-size: 17px;
   color: gray;
-  font-family: 'DM Sans', sans-serif;
 }
 .branding___hero .right__section button{
   width: fit-content;
@@ -2017,14 +2047,12 @@ z-index: 5;
   margin-top: 100px;
 }
 .latest__branding__works .heading{
-  font-family: 'Syne', sans-serif;
   font-size: 40px;
   text-align: center;
 }
 .latest__branding__works .head_para{
   text-align: center;
   width: 47%;
-  font-family: 'DM Sans', sans-serif;
   margin: 10px auto 50px;
 }
 .latest__branding__works .second__box{
@@ -2045,13 +2073,11 @@ z-index: 5;
   border-radius: 15px;
 }
 .latest__branding__works  .txt_box h5{
-  font-family: 'Syne', sans-serif;
   font-size: 30px;
 }
 .latest__branding__works .txt_box p{
   font-size: 16px;
   margin-bottom: 5px;
-  font-family: 'DM SANS', sans-serif;
 }
 .latest__branding__works .txt_box span{
   position: absolute;

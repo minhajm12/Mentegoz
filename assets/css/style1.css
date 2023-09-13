@@ -4,12 +4,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 *
 {
     margin:0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Lexend', sans-serif;
 }
 :root
 {
@@ -23,7 +26,8 @@
 body
 {
     overflow-x: hidden;
-    font-family: 'poppins';
+    /* font-family: 'poppins'; */
+    font-family: 'Lexend', sans-serif;
     
 }
 .body-dark{
@@ -42,7 +46,11 @@ html
 }
 
 
-
+p
+{
+    font-weight: 300;
+    color: #333;
+}
 
 
 
@@ -649,7 +657,8 @@ i
     font-weight: 800;
     /* font-size:100px; */
     letter-spacing: .5px;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Lexend', sans-serif;
     letter-spacing: 2%;
     line-height: 80px;
 }
@@ -821,16 +830,17 @@ p.para-color
 #banner .counter-div .counter
 {
     font-size:25px;
-    font-weight: 700;
+    font-weight: 800;
     color: var(--maintextcolor);
-    font-family: 'Righteous', cursive;
+    font-family: 'Lexend', sans-serif; 
 }
 #banner .counter-label
 {
     /* background: blue; */
     text-align: left;
     font-size:16px;
-    color:#1b1b58
+    color:#1b1b58;
+    font-weight: 300;
 }
 .social-media
 {
@@ -1528,7 +1538,8 @@ p.para-color
 
 .main-head
 {
-    font-family: 'poppins';
+    /* font-family: 'poppins'; */
+    font-family: 'Lexend', sans-serif;
     font-weight: 700;
     font-size: 24px;
     color:var(--maintextcolor);
@@ -1760,7 +1771,8 @@ p.para-color
 .service-head
 {
     font-size: 40px;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Lexend', sans-serif;
     font-weight: 800;
     color:var(--maintextcolor);
     line-height: 40px;
@@ -1768,6 +1780,7 @@ p.para-color
 }
 .subhead-service
 {
+    font-family: 'Poppins', sans-serif;
     color:transparent;
     -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color:var(--maintextcolor);
@@ -3400,6 +3413,7 @@ p.para-color
 }
 #worldwidesection .textmove h1
 {
+    font-family: 'Poppins', sans-serif;
     font-weight: 800;
     font-size: 100px;
     color: transparent;
